@@ -28,13 +28,13 @@
     * Device -> Wifi Router -> ISP -> National Backbone -> Landing Station -> Undersea Cables -> Foreign Landing Station -> Destination ISP 
 
 * Communication Protocols
-       * Protocols define the rules for how data should be transferred, recieved and interpreted.
-       * HTTP (HyperText Transfer Protocol): Used for transferring web pages and other resources.
-       * HTTPS (HyperText Transfer Protocol Secure): Secure version of HTTP that encrypts data.
-       * TCP/IP (Transmission Control Protocol/Internet Protocol): Fundamental protocol suite for the internet.
-       * FTP (File Transfer Protocol): Used for transferring files between computers.
-       * SMTP (Simple Mail Transfer Protocol): Used for sending emails.
-       * DNS (Domain Name System): Translates domain names into IP addresses.
+    * Protocols define the rules for how data should be transferred, recieved and interpreted.
+    * HTTP (HyperText Transfer Protocol): Used for transferring web pages and other resources.
+    * HTTPS (HyperText Transfer Protocol Secure): Secure version of HTTP that encrypts data.
+    * TCP/IP (Transmission Control Protocol/Internet Protocol): Fundamental protocol suite for the internet.
+    * FTP (File Transfer Protocol): Used for transferring files between computers.
+    * SMTP (Simple Mail Transfer Protocol): Used for sending emails.
+    * DNS (Domain Name System): Translates domain names into IP addresses.
     
 * Node.js Basics
     * It is a Javascript Runtime made using Chrome's v8 engine which converts Javascript to ByteCode in the chrome browser.
