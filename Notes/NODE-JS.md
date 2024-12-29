@@ -20,31 +20,44 @@
 
 ## Topics To Be Covered 🧑🏻‍💻
 
-* Asynchronous Vs Synchronous
-    * Asynchronous programming enables us to do multiple tasks on a single thread by the help of context switching.
-    * Synchronous programming simply executes one task at a time.
+* Basic Computer Networking
+    * Internet is a vast network of interconnected computers that can talk with each other.
+    * The computers are connected via cables and satelite.
+    * Data transfers in the form of byte packets via cables.
+    * For Wireless routers and satelite data be in the form of Electromagnetic Waves it converts to byte packet before transferring.
+    * Device -> Wifi Router -> ISP -> National Backbone -> Landing Station -> Undersea Cables -> Foreign Landing Station -> Destination ISP 
 
-* Callbacks
-    * Callback means when a function is passed into another function as an arguement and then called.
-    * PROBLEMS
-       * Problem 1: Write a function processArray that takes an array and a callback function. The function should iterate over the array and apply the callback to each element.
-       * Problem 2: Create a function delayedGreeting that takes a name and a callback function. The function should wait for 3 seconds and then call the callback function, passing the name as an argument.
+* Communication Protocols
+       * Protocols define the rules for how data should be transferred, recieved and interpreted.
+       * HTTP (HyperText Transfer Protocol): Used for transferring web pages and other resources.
+       * HTTPS (HyperText Transfer Protocol Secure): Secure version of HTTP that encrypts data.
+       * TCP/IP (Transmission Control Protocol/Internet Protocol): Fundamental protocol suite for the internet.
+       * FTP (File Transfer Protocol): Used for transferring files between computers.
+       * SMTP (Simple Mail Transfer Protocol): Used for sending emails.
+       * DNS (Domain Name System): Translates domain names into IP addresses.
     
-* Promises
-    * A Promise is an Object representing the eventual completion or failure of an Asynchronous Operation.
-    * States Of a Promise : Pending, Fulfilled, Rejected
-    * PROBLEMS
-       * Problem 1: Write a function fetchData that returns a promise. The promise should resolve with the string "Data fetched" after 2 seconds. Use the .then method to log the resolved value.
-       * Problem 2: Create a function delayedDouble that takes a number and returns a promise. The promise should resolve with double the number after 1 second. Chain multiple calls to delayedDouble to double a number three times and log the final result.
+* Node.js Basics
+    * It is a Javascript Runtime made using Chrome's v8 engine which converts Javascript to ByteCode in the chrome browser.
+    * Javascript was built for interacting with websites frontend, to use it also on backend and servers Node.js was made.
+    * Node.js can be used for
+       * Building HTTP Servers
+       * Building CLI
+       * Creating APIs
+       * Server Side Rendering
     
-* Async Await
-    * These are keywords.
-    * An async Function is a Function that returns a Promise.
-    * await keyword makes Javascript wait untill the promise is resolved and returns the result. If the promise is rejected, it throws an error
-    * PROBLEMS
-       * Problem 1: Write an async function that fetches user data from a mock API endpoint (you can use https://jsonplaceholder.typicode.com/users/1). Log the user data to the console.
-       * Problem 2: Write an async function that makes two sequential API calls. First, fetch a post from https://jsonplaceholder.typicode.com/posts/1, then fetch the comments for that post from https://jsonplaceholder.typicode.com/posts/1/comments. Log both the post and its comments to the console.
+* Global vs Local Scope
+    * Global : ariables or functions declared in the global scope are accessible from anywhere in the code.
+    * Local : Variables or functions declared within a function or block are only accessible within that function or block.
 
+* Modules
+    * A module is indeed a reusable block of code that is typically stored in a separate file or location.
+    * Types
+       * Core Modules
+       * Local Modules
+       * Third Party Modules 
+    * Exporting and Importing Modules
+       * Export : Used to make functions, objects, or values available to other modules.
+       * Import : Used to bring in functions, objects, or values from other modules.
 ## Additional Topics
 
 * Will update based on the need
