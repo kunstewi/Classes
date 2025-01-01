@@ -16,7 +16,7 @@
     
 ## Upcoming Calendar 📆
 
-* Next Class: GSOC 2025, 30 Dec 2024
+* Coming Soon
 
 ## Topics To Be Covered 🧑🏻‍💻
 
@@ -44,6 +44,13 @@
        * Building CLI
        * Creating APIs
        * Server Side Rendering
+    * Node.js Architecture
+       * Event-driven, non-blocking
+       * I/O Model 
+       * Single Threaded Nature
+    * Event Loop
+       * How it works 
+       * Phases
     
 * Global vs Local Scope
     * Global : ariables or functions declared in the global scope are accessible from anywhere in the code.
@@ -58,6 +65,42 @@
     * Exporting and Importing Modules
        * Export : Used to make functions, objects, or values available to other modules.
        * Import : Used to bring in functions, objects, or values from other modules.
+    * fs Mdule
+    * HTTP Module
+
+* Package Management with npm
+   * package.json
+   * installing and managing packages
+
+* Error Handling
+   * Try-catch blocks
+   * Handling asynchronous errors
+
+* Streams and Buffers
+   * Understanding streams
+   * Working with buffers
+   
+* Environment Variables
+   * Using environment variables in Node.js applications
+   * Express.js
+
+* Problems
+   * How do you create a simple HTTP server in Node.js that responds with "Hello, World!"?
+   * How do you read the contents of a file asynchronously in Node.js?
+   * How do you create and use a custom module in Node.js?
+   * How do you write data to a file in Node.js?
+   * How do you handle errors in Node.js using try-catch blocks?
+   * How do you use the fs module to list all files in a directory?
+   * How do you make an HTTP GET request in Node.js using the http or https module?
+   * How do you use the path module to work with file and directory paths?
+   * How do you create a simple Express.js application with one route?
+   * How do you use environment variables in a Node.js application?
+   * How do you set up a basic package.json file for a Node.js project?
+   * How do you install and use a third-party module from npm in your Node.js project?
+   * How do you use the events module to create and handle custom events in Node.js?
+   * How do you use the stream module to read data from a file and write it to another file?
+   * How do you use the crypto module to hash a string in Node.js?
+
 ## Additional Topics
 
 * {
@@ -70,3 +113,19 @@ block
 
 ## Notes :book:
 
+* Theory Problems
+   * What is Node.js and how does it differ from traditional JavaScript in the browser?
+   * How do you install Node.js on your system?
+   * What is npm and how is it used in Node.js projects?
+   * How do you create a new Node.js project?
+   * What are the core modules in Node.js and how do you use them?
+   * How do you create and use custom modules in Node.js?
+   * What is the purpose of the package.json file in a Node.js project?
+   * How do you handle asynchronous operations in Node.js?
+   * What are callbacks, promises, and async/await in Node.js?
+   * How do you set up a basic HTTP server using Node.js?
+   * What is the event loop in Node.js and how does it work?
+   * How do you read and write files in Node.js?
+   * What are streams in Node.js and how are they used?
+   * How do you handle errors in Node.js?
+   * What are some common third-party modules used in Node.js projects?
