@@ -31,7 +31,7 @@
     * Protocols define the rules for how data should be transferred, recieved and interpreted.
     * HTTP (HyperText Transfer Protocol): Used for transferring web pages and other resources.
     * HTTPS (HyperText Transfer Protocol Secure): Secure version of HTTP that encrypts data.
-    * TCP/IP (Transmission Control Protocol/Internet Protocol): Fundamental protocol suite for the internet.
+    * TCP/IP (Transmission Control Protocol/Internet Protocol): Fundamental protocol suite for the internet. IP handles addressing and routing, TCP handles packetisation, ordering and error checked delivery.
     * FTP (File Transfer Protocol): Used for transferring files between computers.
     * SMTP (Simple Mail Transfer Protocol): Used for sending emails.
     * DNS (Domain Name System): Translates domain names into IP addresses.

@@ -51,4 +51,4 @@ const fetchPostAndComments = async (postId) => {
   };
   
   // Call the function
-  getPostWithComments();
+  getPostWithComments()
