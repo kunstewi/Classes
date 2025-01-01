@@ -70,11 +70,3 @@ block
 
 ## Notes :book:
 
-* Create three variables, each of which should be an array. Each array must contain five elements with the following specifications:
-
-The first element should represent a random username.
-The second element should represent the user's age.
-The third element should indicate whether the user is 18 or older.
-The fourth element should represent the user's unique number.
-
-The fifth element should represent a placeholder for the user's account number, but you cannot explicitly pass any value like an account number, nor should this element be left completely empty."
