@@ -16,5 +16,11 @@ function showLocalVar() {
     console.log(localVar); // Accessible here
 }
 
+{
+    let pussyCat = "I am a pussy cat"; // block scope
+}
+
+// console.log(pussyCat); // Error: pussyCat is not defined
+
 showLocalVar(); // Output: I am local
 console.log(localVar); // Error: localVar is not defined

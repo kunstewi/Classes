@@ -57,20 +57,41 @@
     * Local : Variables or functions declared within a function or block are only accessible within that function or block.
 
 * Modules
-    * A module is indeed a reusable block of code that is typically stored in a separate file or location.
+    * A module is a reusable block of code that is typically stored in a separate file or location.
     * Types
        * Core Modules
+          * built in in node.js
+          * fs (read and write a file)
+          * http (creating an http server) 
+          * path (used in handling path of files)
+          * os (gives details about the operating system)
        * Local Modules
+          * Local modules are custom modules made by us in a separate file that we can export import to use in another file.
        * Third Party Modules 
+          * built by community stored in npm registry can be installed and uninstalled using npm 
+          * express
+          * mongoose
+          * axios
+          * cors
+
     * Exporting and Importing Modules
        * Export : Used to make functions, objects, or values available to other modules.
        * Import : Used to bring in functions, objects, or values from other modules.
-    * fs Mdule
-    * HTTP Module
+       * The syntax for exporting and importing modules are different in ES6 and Javascript.
+          * In ES6 import and export keyword is used
+          * In Javascript require and module.exports is used
+          * if you see .mjs extension for a module you have to understand that is an ES6 module and you have to use ES6 syntax for exporting and importing.
 
 * Package Management with npm
+   * used in managing third party modules
+   * Some commands
+      * npm init
+      * npm install <package-name>
+      * npm uninstall <package-name>
+      * npm update <package-name>
+      * npm install
+      * npm list
    * package.json
-   * installing and managing packages
 
 * Error Handling
    * Try-catch blocks

@@ -1,7 +1,6 @@
-let kind = 0;
+const os = require('os'); // os module
 
-function test() {
-  return kind;
-}
-
-test();
+// console.log('Platform:', os.platform());
+// console.log('CPU architecture:', os.arch());
+// console.log('Total memory:', os.totalmem());
+// console.log('Free memory:', os.freemem());
