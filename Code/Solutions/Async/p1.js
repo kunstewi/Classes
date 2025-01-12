@@ -10,4 +10,4 @@ function processArray(array, callback){
   
   const arr = [1,2,3,4];
   const doubled = processArray(arr, (x) => x * 2);
-  console.log(doubled);
+  console.log(doubled); // [2, 4, 6, 8]

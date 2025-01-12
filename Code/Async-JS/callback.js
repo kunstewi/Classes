@@ -25,10 +25,10 @@ greet('Puneet Superstar', sayGoodbye);
 
 //example asynchronous callback
 
-function fetchData(callback) {
+function fetchData(callbackFunction) {
     setTimeout(() => {
         console.log('Data fetched');
-        callback();
+        callbackFunction();
     }, 2000);
 }
 
